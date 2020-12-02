@@ -6,12 +6,17 @@ import java.util.stream.Stream;
 
 public class Solution_01 {
 
-    static public void solve() throws IOException {
+    // answer: 81273
+    static public void solve() {
         String path = "C:\\Users\\selma\\IdeaProjects\\Knowit2020\\input\\input_01.txt";
-        int[] numbers = Stream.of(Files.readString(Path.of(path))
+        int[] numbers = new int[0];
+        try {
+            numbers = Stream.of(Files.readString(Path.of(path))
                 .split(","))
                 .mapToInt(Integer::parseInt)
                 .toArray();
+        } catch (IOException ignored) {}
+
         Arrays.sort(numbers);
 
         for(int i = 0; i < numbers.length; i++) {
