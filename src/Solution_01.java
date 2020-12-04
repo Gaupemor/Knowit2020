@@ -8,7 +8,7 @@ public class Solution_01 {
 
     // answer: 81273
     static public void solve() {
-        String path = "C:\\Users\\selma\\IdeaProjects\\Knowit2020\\input\\input_01.txt";
+        String path = InputPath.input_01.getPath();
         int[] numbers = new int[0];
         try {
             numbers = Stream.of(Files.readString(Path.of(path))
