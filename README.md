@@ -1,6 +1,6 @@
 # Knowit kodekalender 2020
 
-### Tally: ```8```
+### Tally: ```10```
 
 - Day 1:    ```81273```
 - Day 2:    ```69```
@@ -12,3 +12,5 @@
 - Day 8:
 - Day 9:    ```158```
 - Day 10:   ```ti-7776```
+- Day 11:   ```metropolitan```
+- Day 12:   ```5965```
