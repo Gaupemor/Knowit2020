@@ -43,11 +43,10 @@ public class Solution_12 {
                 numInThisGen + generations.get(genIndex) :
                 numInThisGen);
 
-        if(Arrays.stream(s).anyMatch(n -> n.contains("("))) {
-            nextGenIndicesList.forEach(indices -> countGenerationsRecursive(genIndex+1, Arrays.copyOfRange(s, indices[0], indices[1]+1)));
-        }
+        nextGenIndicesList.forEach(indices -> countGenerationsRecursive(genIndex+1, Arrays.copyOfRange(s, indices[0], indices[1]+1)));
     }
 
+    // answer: 5965
     public static void solve() {
         String[] tree;
         try {
