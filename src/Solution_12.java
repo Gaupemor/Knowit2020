@@ -13,7 +13,7 @@ public class Solution_12 {
 
     private static void countGenerationsRecursive(int genIndex, String[] s) {
         if(s[0].contains("(")) {
-            s[0] = s[0].replace("(", "");
+            s[0] = s[0].substring(1);
             s[s.length-1] = s[s.length-1].substring(0, s[s.length-1].length()-1);
         }
 

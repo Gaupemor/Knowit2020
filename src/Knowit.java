@@ -1,5 +1,5 @@
 public class Knowit {
     public static void main(String[] args) {
-        Solution_12.solve();
+        Solution_13.solve();
     }
 }
